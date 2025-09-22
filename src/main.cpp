@@ -75,6 +75,7 @@ void RunProgram()
                 if(memory[opAddr] == val){
                     pc = target;
                 }
+                break;
             }
             case JINE: {
                 unsigned char target = memory[pc++];
@@ -83,6 +84,7 @@ void RunProgram()
                 if(memory[opAddr] != val){
                     pc = target;
                 }
+                break;
             }
         }
     }
