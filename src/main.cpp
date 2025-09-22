@@ -120,5 +120,7 @@ int main()
     };
     LoadProgramToMemory(alphabet);
     RunProgram();
+    LoadProgramToMemory(helloProg);
+    RunProgram();
     return 0;
 }
